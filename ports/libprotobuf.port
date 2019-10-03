@@ -1,0 +1,8 @@
+# with 3.6.0 mutex was added, which is currently not supported by Genode
+VERSION   := 3.5.1
+DOWNLOADS := protobuf-cpp.archive
+LICENSE   := https://github.com/google/protobuf/blob/v3.5.1/LICENSE
+
+URL(protobuf-cpp) := https://github.com/protocolbuffers/protobuf/releases/download/v$(VERSION)/protobuf-cpp-$(VERSION).tar.gz
+SHA(protobuf-cpp) := c28dba8782da2cfea1e11c61d335958c31a9c1bc553063546af9cbe98f204092
+DIR(protobuf-cpp) := src/lib/libprotobuf
